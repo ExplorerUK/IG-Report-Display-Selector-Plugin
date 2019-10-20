@@ -1,0 +1,35 @@
+{
+  "name" : "IG Report Display Selector",
+  "version" : "19.1.0",
+  "description" : "Adds a Report Display Selector to Interactive Grid regions to allow the user to select between available Reports",
+  "keywords" : ["ig", "grid", "report", "selector", "rds"],
+  "homepage" : "https://github.com/ExplorerUK/IG-Report-Display-Selector-Plugin",
+  "bugs" : {
+    "url" : "https://github.com/ExplorerUK/IG-Report-Display-Selector-Plugin/issues",
+    "email" : "matt.mulvaney@explorer.uk.com"
+  },
+  "license" : "MIT",
+  "author" : {
+    "name" : "Matt Mulvaney",
+    "email" : "matt.mulvaney@explorer.uk.com",
+    "url" : "https://www.linkedin.com/in/matt-mulvaney-541a659/",
+    "twitter" : "Matt_Mulvaney",
+    "donationUrl" : "https://www.justgiving.com/saintmichaelshospice"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/ExplorerUK/IG-Report-Display-Selector-Plugin.git"
+  },
+ "oracle" : {
+    "versions" : ["11.2.0.1", "12.1.0.1"],
+    "apex" : {
+      "versions" : ["19.1.0","19.2.0"],
+      "plugin" : {
+        "internalName" : "COM.UK.EXPLORER.IGRDS",
+        "type" : "dynamic action",
+        "demo" : "https://apex.oracle.com/pls/apex/f?p=145466",
+        "previewImage" : "https://raw.githubusercontent.com/ExplorerUK/IG-Report-Display-Selector-Plugin/master/preview.gif"
+      }
+    }
+  }
+}
